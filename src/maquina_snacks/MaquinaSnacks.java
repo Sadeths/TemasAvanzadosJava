@@ -93,7 +93,7 @@ public class MaquinaSnacks {
         var precio = Double.parseDouble(consola.nextLine());
         Snacks.agregarSnack(new Snack(nombre, precio));
         System.out.println("Tu snack se ha agregado correctamente");
-        Snacks.mostarSnacks();
+        Snacks.mostrarSnacks();
     }
     
 
